@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Kwik QR generator</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="bg-video.mp4" type="video/mp4">
+    </video>
+    <div class="wrapper">
+      <header>
+        <h1>KWIK QR GENERATOR</h1>
+        <p>Paste a url or enter url to create QR code</p>
+      </header>
+      <div class="form">
+        <input type="text" spellcheck="false" placeholder="Enter the url">
+        <button>Generate QR Code</button>
+      </div>
+      <div class="qr-code">
+        <img src="" alt="qr-code">
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
